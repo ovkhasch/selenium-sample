@@ -3,8 +3,8 @@
 <suite name="Suite" parallel ="classes" verbose="5">
   <test thread-count="5" name="Test">
     <classes>
-    <!--class name="testng.CreateContact"/> -->
-     <!-- <class name="testng.EditLead"/>-->
+      <class name="testng.CreateContact"/>
+      <class name="testng.EditLead"/>
       <class name="testng.SampleTestng"/>
     </classes>
   </test> <!-- Test -->
